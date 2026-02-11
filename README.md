@@ -46,7 +46,8 @@ Proyectos de Docker
 - Eliminar todas las imagenes y contendores
 ```docker system prune {Y/N}```
 
-
+- Levantar servicios definidos en el docker-compose.yml
+```docker compose up -d```
 
 
 
