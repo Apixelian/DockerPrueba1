@@ -42,3 +42,13 @@ Proyectos de Docker
 
 - Reiniciar un contenedor
 ```docker restart {nombre/id}```
+
+- Eliminar todas las imagenes y contendores
+```docker system prune {Y/N}```
+
+
+
+
+
+
+
