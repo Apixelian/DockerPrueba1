@@ -22,5 +22,23 @@ Proyectos de Docker
 - Crear y ejecutar un contenedor
 ```docker run -d --name {nombre} -p {puerto} {nombre de la imagen}```
 
-- Listar contenedores
-``` ```
+- Listar contenedores en ejecuccion
+```docker ps```
+
+- Listar contenedores: todos
+```docker ps -a```
+
+- Detener contenedores en ejecuccion
+```docker stop {nombre/id}```
+
+- Eliminar contenedores (Debe estar detenido)
+```docker rm {nombre/id}```
+
+- Forzar eliminar contenedor en ejecuccion
+```docker rm -f```
+
+- Iniciar un contenedor
+```docker start {nombre/id}```
+
+- Reiniciar un contenedor
+```docker restart {nombre/id}```
