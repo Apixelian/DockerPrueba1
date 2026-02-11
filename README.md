@@ -1,11 +1,14 @@
 # DockerPrueba1
-Proyectos de Docker
+
+# Proyectos de Docker
 
 - Version instalada de docker
 ```docker --version```
 
 - Ver la información general de docker
 ```docker info```
+
+# Inagen
 
 - Imagen de docker: Descargar
 ```docker pull mysql:8.0```
@@ -18,6 +21,8 @@ Proyectos de Docker
 
 - Imagen de docker: Construir con Dockerfile
 ```docker build -t {nombre} {ruta}```
+
+# Contenedores
 
 - Crear y ejecutar un contenedor
 ```docker run -d --name {nombre} -p {puerto} {nombre de la imagen}```
@@ -46,9 +51,13 @@ Proyectos de Docker
 - Eliminar todas las imagenes y contendores
 ```docker system prune {Y/N}```
 
+# Docker Compose
+
 - Levantar servicios definidos en el docker-compose.yml
 ```docker compose up -d```
 
+- Detener servicios definidos en el docker-compose.yml
+```docker compose down -d```
 
 
 
