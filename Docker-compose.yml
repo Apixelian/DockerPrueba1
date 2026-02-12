@@ -1,0 +1,9 @@
+services: 
+  mi_app:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - "3500:80"
+      
+    
